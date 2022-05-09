@@ -1,0 +1,40 @@
+/*Reset*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-item {
+    text-align: center;
+}
+
+.input-item input ,
+.input-item button {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px  15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.list-section {
+    width: 70%;
+    margin: 2rem auto 0;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    padding: 30px;
+    
+}
