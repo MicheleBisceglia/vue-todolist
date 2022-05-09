@@ -5,6 +5,29 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    color: #001c40;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    background-color: #001c40;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.input-title {
+    text-align: center;
+    margin-top: 15px;
+    
+}
 .input-item {
     text-align: center;
 }
@@ -12,7 +35,7 @@
 .input-item input ,
 .input-item button {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px  15px;
     border-radius: 10px;
     border: 1px solid black;
@@ -28,13 +51,23 @@
 ul {
     list-style: none;
     padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #eef3fb;
 }
 
 li {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
     font-size: 25px;
-    padding: 30px;
+    padding: 15px;
     
+}
+
+.done  {
+    text-decoration: line-through;
+}
+
+i {
+    font-size: 70%;
 }
