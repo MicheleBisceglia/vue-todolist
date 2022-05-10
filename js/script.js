@@ -27,7 +27,7 @@ const app = new Vue(
                     done: false
                 },
                 {
-                    text: 'Anadare a prendere Ilaria alla stazione',
+                    text: 'Andare a prendere Ilaria alla stazione',
                     done: false
                 }
             ],
@@ -41,7 +41,7 @@ const app = new Vue(
                     
                 },
             addTodo: function() {
-                const newObj ={
+                const newObj = {
                     text: this.newTodo,
                     done : false
                  }
