@@ -27,7 +27,7 @@ const app = new Vue(
                     done: false
                 },
                 {
-                    text: 'Anadare a prendere ilaria alla stazione',
+                    text: 'Anadare a prendere Ilaria alla stazione',
                     done: false
                 }
             ],
@@ -41,8 +41,12 @@ const app = new Vue(
                     
                 },
             addTodo: function() {
+                const newObj ={
+                    text: this.newTodo,
+                    done : false
+                 }
                 if(this.newTodo.length > 2) {
-                this.todos.push(this.newTodo);
+                this.todos.push(newObj);
                 this.newTodo = '';
                 }
             },
